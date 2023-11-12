@@ -1,0 +1,10 @@
+[submodule "other_repos/scires-scripts"]
+	path = other_repos/scires-scripts
+	url = https://github.com/SciresM/switch-reversing.git
+	branch = 1700_support
+[submodule "other_repos/il2cpp"]
+	path = other_repos/il2cpp
+	url = https://github.com/Perfare/Il2CppDumper.git
+[submodule "other_repos/nx-decomp-tools"]
+	path = other_repos/nx-decomp-tools
+	url = https://github.com/open-ead/nx-decomp-tools.git
