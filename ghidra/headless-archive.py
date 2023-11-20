@@ -41,7 +41,7 @@ def archiveProject(ghidraPath, ghidraProjectName, projectDirectory, scriptsPath)
 
 def main(ghidraPath, projectParentDirectory, scriptsPath):
     # if parent directory is a project directory, archive that one
-    ghidraProjectName = getGhidraProjectName(projectParentDirectory)
+    ghidraProjectName = getGhidraProjectName(path.Path(projectParentDirectory))
     if ghidraProjectName:
         saved = archiveProject(ghidraPath, ghidraProjectName, projectParentDirectory, scriptsPath)
         return
